@@ -1,0 +1,28 @@
+{
+  "name": "sit725-2021-t2-prac7",
+  "version": "1.0.0",
+  "description": "week 7 prac",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep0804/sit725-2021-t2-prac6.git"
+  },
+  "author": "Sandeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeep0804/sit725-2021-t2-prac5/issues"
+  },
+  "homepage": "https://github.com/sandeep0804/sit725-2021-t2-prac6#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mocha": "^9.1.1",
+    "mongodb": "^4.1.1",
+    "socket.io": "^4.2.0"
+  }
+}
