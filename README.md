@@ -17,7 +17,9 @@ The dependencies i have used are Nodejs, Express JS, socket.io, mongodb.
 
 # Execution
 
-open the application in vscode and run it using '$ npm start' command
+Clone this repo using vscode and install or update the dependencies using '$ npm install'
+
+Now run the application in vscode using '$ npm start' command
 
 # Copyrights
 
