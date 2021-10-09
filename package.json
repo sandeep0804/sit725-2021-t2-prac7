@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandeep0804/sit725-2021-t2-prac6.git"
+    "url": "git+https://github.com/sandeep0804/sit725-2021-t2-prac7.git"
   },
   "author": "Sandeep",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandeep0804/sit725-2021-t2-prac5/issues"
+    "url": "https://github.com/sandeep0804/sit725-2021-t2-prac7/issues"
   },
-  "homepage": "https://github.com/sandeep0804/sit725-2021-t2-prac6#readme",
+  "homepage": "https://github.com/sandeep0804/sit725-2021-t2-prac7#readme",
   "dependencies": {
     "chai": "^4.3.4",
     "dotenv": "^10.0.0",

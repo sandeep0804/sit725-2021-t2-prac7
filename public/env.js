@@ -6,7 +6,7 @@ const submitProject = (project) => {
         data: JSON.stringify(project), // access in body
         type: 'POST',
         success: function (result) {
-            alert('Project Succesfully submitted')
+            alert('Course Details successfully submitted')
         }
     });
 }
@@ -51,7 +51,7 @@ let socket = io();
 
 socket.on('number', (msg) => {
     console.log('Random number: ' + msg);
-    $("#pageTitle").html("Deakin Crowd"+ msg)
+    $("#pageTitle").html("MERN Stack"+ msg)
 })
 
 //appensa the project row with objects of type project 

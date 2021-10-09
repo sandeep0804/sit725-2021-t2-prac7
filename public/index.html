@@ -20,14 +20,15 @@
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper" style=" background-color: #9E65A9;">
+            <div class="nav-wrapper" >
                 <a href="#" class="brand-logo" style="height: 100%;">
                     <img src="assets/logo.jpg" alt="" class="circle responsive-img"
-                        style="height: 100%;padding-top: 5px; padding-left: 15px;"> <!-- notice the "circle" class -->
+                        style="height: 100%;padding-top: 5px; padding-left: 15px;"> 
 
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="https://www.linkedin.com/in/sandeep-vattipalli-190275185/">Linkedin</a></li>
+                    <li><a class="lidin" target="_blank" href="https://www.linkedin.com/in/sandeep-vattipalli-190275185/">LinkedIn</a></li>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -40,19 +41,13 @@
             <div class="row">
                 <p class="flow-text mainText">This courses helps you to become MERN stack developer.</p>
             </div>
-            <!-- <div class="row center" style="height: 150px;">
-                <img src="assets/ale2.jpg" alt="" class="circle responsive-img"
-                    style="height: 100%;padding-top: 5px; padding-left: 15px;"> <!-- notice the "circle" class -->
-        </div> -->
-        <div class="row center " style="padding-top:50px;">
+        <div class="row center "style="padding-top:50px;">
             <a id="testButton" class="waves-effect waves-light btn-large modal-trigger" href="#modal1"
-                style="background-color: #9E65A9;"><i class="material-icons left"
-                    style="color:white; font-size:larger ">emoji_people</i>Add Project</a>
+                ><i class="material-icons left">emoji_people</i>Add Project</a>
         </div>
 
         <div class="container">
             <div class="row" id="listProjects">
-
 
             </div>
         </div>
@@ -64,9 +59,7 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
-                © 2021 Copyright Sandeep
-                <!-- <a class="grey-text text-lighten-4 right" href="https://github.com/alexbonti/node-material"><img
-                        src="assets/git-logo.svg" style="height: 20px; padding-right: 15px;"></i>Boiler plate here !</a> -->
+                &copy; 2021 Copyright Sandeep
             </div>
         </div>
     </footer>
@@ -91,24 +84,18 @@
 <!-- Modal Structure -->
 <div id="modal1" class="modal">
     <div class="modal-content">
-        <!-- <h4>Tell me more about your project</h4>
-        <p>Help us share it!</p> -->
         <div class="row">
             <div class="input-field col s12">
                 <input value="" id="name" type="text" class="validate">
-                <label class="name" for="name">Name</label>
+                <label class="name" for="name">Course Name</label>
             </div>
             <div class="input-field col s12">
                 <input value="" id="title" type="text" class="validate">
-                <label class="title" for="title">Project Title</label>
+                <label class="title" for="title">Course Title </label>
             </div>
             <div class="input-field col s12">
                 <input value="" id="description" type="text" class="validate">
-                <label class="description" for="description">Project Description</label>
-            </div>
-            <div class="input-field col s12">
-                <input value="" id="video" type="text" class="validate">
-                <label class="video" for="video">Video Url </label>
+                <label class="description" for="description"> Course Description</label>
             </div>
             <div class="input-field col s12">
                 <input value="" id="image" type="text" class="validate">
@@ -117,6 +104,6 @@
         </div>
     </div>
     <div class="modal-footer">
-        <a onclick="newProject()" href="#!" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+        <a onclick="newProject()" href="#!" class="modal-close waves-effect waves-green btn-flat" id="formSubmit">Submit</a>
     </div>
 </div>
